@@ -44,6 +44,10 @@ ${data.contributing}
 # Tests
 ${data.tests}
 
+# Contact Information 
+* GitHub Username: ${data.username}
+* Contact Email: ${data.email}
+
 `;
 }
 
