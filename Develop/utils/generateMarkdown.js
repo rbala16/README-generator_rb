@@ -29,6 +29,15 @@ ${data.description}
 * [Tests](#Tests)
 * [Questions](#ContactInformation)
     
+# Installation
+${data.installation}
+
+# Usage
+${data.usage}
+
+# License 
+${data.license}
+
 `;
 }
 
