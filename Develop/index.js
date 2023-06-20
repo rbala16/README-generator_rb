@@ -104,15 +104,25 @@ const questions = [
       type: 'input',
       name: 'email',
       message: 'What is your Github email-address?',
-     
+    }
 ];
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, generateMarkdown(data), (err) =>
+  err ? console.log(err) : console.log('Successfully created README File!')
+);
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  inquirer.prompt(questions).then((data)=>{
+    console.log(data);
+    data.licenseOptions = licenseOptions(data.license);
+    writeToFile("./generateREADME.md",data)
+  })
+}
 
 // Function call to initialize app
 init();
