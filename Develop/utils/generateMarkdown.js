@@ -38,6 +38,12 @@ ${data.usage}
 # License 
 ${data.license}
 
+# Contributing 
+${data.contributing}
+
+# Tests
+${data.tests}
+
 `;
 }
 
