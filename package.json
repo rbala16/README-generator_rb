@@ -11,5 +11,13 @@
     "inquirer": "^8.2.4"
   },
   "keywords": [],
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbala16/README-generator_rb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rbala16/README-generator_rb/issues"
+  },
+  "homepage": "https://github.com/rbala16/README-generator_rb#readme"
 }

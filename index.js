@@ -65,7 +65,7 @@ const questions = [
     },
     //License
     {
-      type: 'input',
+      type: 'list',
       name: 'license',
       message: 'Please select a license for this program?',
       choices:[
