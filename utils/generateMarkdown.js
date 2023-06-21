@@ -1,19 +1,7 @@
-// // TODO: Create a function that returns a license badge based on which license is passed in
-// // If there is no license, return an empty string
-// function renderLicenseBadge(license) {}
-
-// // TODO: Create a function that returns the license link
-// // If there is no license, return an empty string
-// function renderLicenseLink(license) {}
-
-// // TODO: Create a function that returns the license section of README
-// // If there is no license, return an empty string
-// function renderLicenseSection(license) {}
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # Project Title
+  ## Project Title
   ${data.title}
   ${data.licenseOptions}
 
@@ -22,12 +10,12 @@ ${data.description}
 
 # Table of Contents 
 
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [License](#Installation)
-* [Contributing](#Contributing)
-* [Tests](#Tests)
-* [Questions](#ContactInformation)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#username)
     
 # Installation
 ${data.installation}
@@ -44,11 +32,14 @@ ${data.contributing}
 # Tests
 ${data.tests}
 
-# Contact Information 
+# Questions
+# My Contact Information is mentioned here ,contact me with any questions :
 * GitHub Username: ${data.username}
 * Contact Email: ${data.email}
 
+_This README is generated with README generator
 `;
 }
+
 
 module.exports = generateMarkdown;

@@ -4,7 +4,7 @@ const inquirer = require("inquirer");
 
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
-//Licensebadge function starts here
+//Create a function to display license badges
 function licenseOptions(value){
   if(value === "Apache 2.0 License"){
     return"[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
@@ -53,21 +53,21 @@ const questions = [
     {
       type: 'input',
       name: 'installation',
-      message: 'Please enter an explanation how to install the software or commands for the program.?',
+      message: 'Whart are the installation instructions of your project?',
     
     },
     //Usage
     {
       type: 'input',
       name: 'usage',
-      message: 'Please explain how can we use this program?',
+      message: 'Please explain how can we use this project?',
      
     },
     //License
     {
       type: 'list',
       name: 'license',
-      message: 'Please select a license for this program?',
+      message: 'Please select a license for this project?',
       choices:[
         "Apache 2.0 License",
         "BSD 3-Clause License",
@@ -83,7 +83,7 @@ const questions = [
     {
       type: 'input',
       name: 'contributing',
-      message: 'Please explain how can users contribute to your project?',
+      message: 'Who are the contributors to your project?',
      
     },
     //Tests
@@ -93,17 +93,18 @@ const questions = [
       message: 'Please enter any testing instructions you would like to provide for this project?',
       
     },
-    //Questions
+  //username
     {
       type: 'input',
       name: 'username',
       message: 'What is your Github username?',
      
     },
+    //email
     {
       type: 'input',
       name: 'email',
-      message: 'What is your Github email-address?',
+      message: 'What is your email-address?',
     }
 ];
 
