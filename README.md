@@ -57,7 +57,7 @@ Run the following command at th root of your project and answer the prompted que
 `node index.js`
 
 ## Contributing
-Rajni bala : (https://github.com/jpd61)
+Rajni bala : (https://github.com/rbala16)
 
 ## Questions
 ✉️ Contact me with any questions: [Email:]bala12rajni@gmail.com , [GitHub](https://github.com/rbala16)<br />
@@ -73,8 +73,7 @@ Rajni bala : (https://github.com/jpd61)
 You are required to submit the following for review:
 
 * A walkthrough video demonstrating the functionality of the application.
-<video width="320" height="240" controls>
-  <source src="./utils/Demo.webm" type="video/webm">
+
 
 * A sample README.md file for a project repository generated using your application:<br>
 https://github.com/rbala16/README-generator_rb/blob/main/generateREADME.md

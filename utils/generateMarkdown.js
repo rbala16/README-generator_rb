@@ -13,7 +13,7 @@ ${data.description}
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
-* [Questions](#email)
+* [Questions](#questions)
     
 ## Installation
 ${data.installation}
@@ -21,7 +21,8 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
-## License🏆
+## License
+🏆
 
 ***${data.license}***
 ${data.licenseOptions}
@@ -34,7 +35,7 @@ _To get more information about the license click on license badge_
 Any test required please mention here:
 ${data.tests}
 
-## Questions❓
+## Questions
 _Contact Information is mentioned here ,Please feel free to 
 contact me with any questions❓:_  <br><br>
 **GitHub Username:** ${data.username}
