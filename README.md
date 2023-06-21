@@ -28,6 +28,40 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
+## License 
+MIT License
+
+## Table of Contents
+- [Description](#description)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Questions](#questions)
+
+
+## Installation
+💾   
+  
+`npm init`
+  
+`npm install inquirer`
+  
+## Usage
+💻   
+  
+Run the following command at th root of your project and answer the prompted questions:
+  
+`node index.js`
+
+## Contributing
+Rajni bala : (https://github.com/jpd61)
+
+## Questions
+✉️ Contact me with any questions: [Email:]bala12rajni@gmail.com , [GitHub](https://github.com/rbala16)<br />
+
 ## MOCKUP 
 * A walkthrough video demonstrating the functionality of the application.
 <img src>
@@ -39,13 +73,14 @@ THEN I am taken to the corresponding section of the README
 You are required to submit the following for review:
 
 * A walkthrough video demonstrating the functionality of the application.
+<video width="320" height="240" controls>
+  <source src="./utils/Demo.webm" type="video/webm">
 
-* A sample README.md file for a project repository generated using your application
+* A sample README.md file for a project repository generated using your application:<br>
+https://github.com/rbala16/README-generator_rb/blob/main/generateREADME.md
 
 * The URL of the GitHub repository, with a unique name and a README describing the project.<br>
 https://github.com/rbala16/README-generator_rb
 
 
----
 
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
