@@ -64,8 +64,8 @@ Rajni bala : (https://github.com/rbala16)
 
 ## MOCKUP
 * A walkthrough video demonstrating the functionality of the application.
-![alt demo]("https://drive.google.com/file/d/11omfhodoBgC2gSWK8-Xu1CVy2_eztBpo/view")
-
+![alt demo](./utils/README-generator-demo.gif)
+The full movie file showing functionality of the application can be found [here](./utils/Demo.webm)
 
 
 
