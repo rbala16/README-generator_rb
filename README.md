@@ -1,5 +1,8 @@
 # 09 Node.js Challenge: Professional README Generator
 
+# Description
+Create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
+
 ## Table of Contents
 
 - [User Story](#user-story)
@@ -62,9 +65,10 @@ Rajni bala : (https://github.com/rbala16)
 ## Questions
 ✉️ Contact me with any questions: [Email:]bala12rajni@gmail.com , [GitHub](https://github.com/rbala16)<br />
 
-## MOCKUP
+## Mockup
 * A walkthrough video demonstrating the functionality of the application.
-![alt demo](https://drive.google.com/file/d/11omfhodoBgC2gSWK8-Xu1CVy2_eztBpo/view)
+![alt demo](./utils/README-generator-demo.gif)
+<br>
 The full movie file showing functionality of the application can be found [here](./utils/Demo.webm)
 
 

@@ -21,8 +21,7 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
-## License
-🏆
+## License 
 
 ***${data.license}***
 ${data.licenseOptions}
