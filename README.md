@@ -69,9 +69,7 @@ Rajni bala : (https://github.com/rbala16)
 * A walkthrough video demonstrating the functionality of the application.
 ![alt demo](./utils/README-generator-demo.gif)
 <br>
-The full movie file showing functionality of the application can be found here : https://github.com/rbala16/README-generator_rb/blob/main/utils/Demo.webm
-
-
+The full movie file showing functionality of the application can be found here : https://github.com/rbala16/README-generator_rb/blob/main/demo
 
 
 ## Important Links!!
