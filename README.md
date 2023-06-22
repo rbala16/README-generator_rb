@@ -64,7 +64,7 @@ Rajni bala : (https://github.com/rbala16)
 
 ## MOCKUP
 * A walkthrough video demonstrating the functionality of the application.
-![alt demo]("./utils/README-generator-demo.gif)
+![alt demo]("./utils/README-generator-demo.gif")
 
 
 
