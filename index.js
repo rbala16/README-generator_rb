@@ -4,7 +4,7 @@ const inquirer = require("inquirer");
 
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
-//Create a function to display license badges
+//Create a function to display license badges and retrieve  their source link
 function licenseOptions(value){
   if(value === "Apache 2.0 License"){
     return"[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
@@ -16,7 +16,7 @@ function licenseOptions(value){
 return "[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
   }
   else if(value === "IBM Public License Version 1.0"){
-    return "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)";
+    return "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://www.liesegang-partner.de/mustervertraege/software-vertraege/open-source-lizenz/ibm-public-license-version-10)";
 }
 else if(value === "MIT"){
   return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
@@ -121,6 +121,7 @@ function init() {
   inquirer.prompt(questions).then((data)=>{
     console.log(data);
     data.licenseOptions = licenseOptions(data.license);
+    //generate README file here
     writeToFile("./generateREADME.md",data)
   })
 }

@@ -1,8 +1,8 @@
 
-  # bnbn [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # README Generator  [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
   ## Description
-bmb
+To create a professional README using nodejs command line 
 
 ## Table of Contents
 
@@ -14,32 +14,32 @@ bmb
 * [Questions](#questions)
     
 ## Installation
-vn
+npm install
 
 ## Usage
-vn
+TO create README for project
 
 ## License
 🏆
 
-***MIT***
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+***BSD 3-Clause License***
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 _To get more information about the license click on license badge_
 
 ## Contributing
-🧛bmb is contributing in the project
+🧛Rajni is contributing in the project
 
 ## Tests
 Any test required please mention here:
-bm
+no
 
 ## Questions
 _Contact Information is mentioned here ,Please feel free to 
 contact me with any questions❓:_  <br><br>
-**GitHub Username:** nm
+**GitHub Username:** rbala16
 
-_You can find me on github here:_ (https://github.com/nm)
+_You can find me on github here:_ (https://github.com/rbala16)
 <br>
-**📧Email:** bm
+**📧Email:** bala
 
 ***This README is generated with README generator😇***
